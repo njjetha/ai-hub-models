@@ -64,7 +64,6 @@ pip install "qai_hub_models[yolov7]"
 python -m qai_hub_models.models.yolov7.export [--target-runtime ...] [--device ...] [--help]
 ```
 
-
 _Using Qualcomm® AI Hub_, the export script will:
 
 1. **Compile** the model for the chosen device and target runtime (see: [Compiling Models on AI Hub](https://app.aihub.qualcomm.com/docs/hub/compile_examples.html)).
